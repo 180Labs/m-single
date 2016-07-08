@@ -1,0 +1,66 @@
+
+/* IMPORTS FOR BASE THEME COLOR AND REVISED FONTS */
+@import 'colors.css';
+@import 'fonts.css';
+
+/* ############################################################
+
+  Color Values (Light to Dark):
+
+  Teal: #01E6C8 > #01B79E > #00927E > #005145
+  Pink: #FF7895 > #E74E69 > #BD455E > #581A27
+  Blue: #00E9F8 > #00B7C3 > #008992 > #005E65
+  Gold: #FACE7C > #FAB73B > #CA8115 > #7F5720
+  Grey: #F1DEF0 > #A3ADBA > #767C85 > #212327
+
+  NOTE: EVERYTHING BELOW IF FOR CUSTOMIZED STYLE OR COLOR ADDITIONS
+
+############################################################ */
+
+.slider-caption h2 span {color: #FACE7C !important;} /* Home large banner */
+.stats > div > .statBox > .counter span {color: #FACE7C !important;} /* Home large banner Stat/Counter boxes */
+section#content div.heading-block h2 {color: #01B79E !important;} /* Global - preamble text block primary heading */
+.promo > h3 a {color: #01B79E !important;} /* CTA - Link color */
+.promo > h3 a:hover {color: #00927E !important;} /* CTA - Link hover color */
+.promo > a.button {background-color: #01B79E !important;} /* CTA - Button background color */
+.promo > a.button:hover {background-color: #00927E !important;} /* CTA - Button background hover color */
+a.button.button-full {background-color: #00927E !important;} /* Global - Full Width Button background color */
+a.button.button-full:hover {background-color: #333 !important;} /* Global - Full Width Button background hover color */
+a.button.button-full.button-dark {background-color: #333 !important;} /* Global - Full Width Dark Button background color */
+a.button.button-full.button-dark:hover {background-color: #00927E !important;} /* Global - Full Width Dark Button background hover color */
+a.button.button-3d {background-color: #01B79E !important;} /* Global - Full Width 3D Button background color */
+a.button.button-3d:hover {background-color: #00927E !important;} /* Global - Full Width 3D Button background hover color */
+section#mason-portfolio ul#portfolio-filter li.activeFilter a.clientReviews {background-color: #FACE7C;} /* Global (Review Sorter) - Client Review Tab background color */
+section#mason-portfolio ul#portfolio-filter li.activeFilter a.peerReviews {background-color: #00E9F8;} /* Global (Review Sorter) - Peer Review Tab background color */
+section#mason-portfolio ul#portfolio-filter li.activeFilter a.clientSurveys {background-color: #FF7895;} /* Global (Review Sorter) - Client Survey Tab background color */
+div#portfolio-shuffle:hover {background-color: #00927E;}
+section section#reviews ul#review-list li.pf-reviews .testimonial {border-color: #FACE7C !important;} /* Global (Client Review) - bottom border color */
+section section#reviews ul#review-list li.pf-peers .testimonial {border-color: #00E9F8 !important;} /* Global (Peer Review) - bottom border color */
+section section#reviews ul#review-list li.pf-surveys .testimonial {border-color: #FF7895 !important;} /* Global (Client Survey) - bottom border color */
+ul.tab-nav li.ui-state-active a {background-color: #00927E !important;} /* Tab System Nav - Active Tab background color */
+ul.process-steps li.ui-state-active a {border-color: #005145 !important;background-color: #01B79E !important;} /* Process Steps - Active background+border color */
+ul.process-steps li.ui-state-active h5 {color: #01B79E !important;} /* Process Steps - Active Heading color */
+section#contact-content h2 {color: #00927E !important;} /* Footer (Contact) - Heading color */
+section#map-content h3.font-body {color: #00927E !important;} /* Footer (Location) - Heading color */
+div#gotoTop.icon-angle-up:hover {background-color: #01B79E !important;} /* Footer (Button) - Jump To Top Button background hover color */
+
+/* ############################################################
+
+  Background Image Updates
+
+############################################################ */
+
+  /* HOME PAGE */
+  .swiper-slide {background-image: url('images/home/primary-banner-1920x1920.jpg');} /* Primary full-screen background image */
+  section#section-reviews > .parallax {background-image: url('images/home/featured-review-banner-1920x1920.jpg');} /* Featured Review background image */
+  section#section-peerFeature > .parallax {background-image: url('images/home/featured-peer-banner-1920x1920.jpg');} /* Featured Peer Review background image */
+  section#section-surveyFeature > .parallax {background-image: url('images/home/featured-survey-banner-1920x1920.jpg');} /* Featured Survey background image */
+
+  /* ABOUT US */
+  section#page-title.about-us {background-image: url('images/about/primary-banner-2000x1293.jpg');} /* Primary background image */
+
+  /* SERVICES */
+  section#page-title.services {background-image: url('images/services/primary-banner-1920x1080.jpg');} /* Primary background image */
+
+  /* FAQs */
+  section#page-title.faq {background-image: url('images/faq/primary-banner-1920x1080.jpg');} /* Primary background image */
